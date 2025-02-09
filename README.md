@@ -40,6 +40,7 @@ cd vpc-workspace
 terraform init
 terraform apply -auto-approve
 ```
+![vpc-workspace RUN](vpc/vpc-workspace.png)
 
 This will create a VPC and output the `vpc_id`.
 
