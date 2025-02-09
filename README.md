@@ -36,7 +36,7 @@ terraform-multi-workspace/
 ### 1️⃣ Initialize and Apply `vpc-workspace`
 
 ```bash
-cd vpc-workspace
+cd vpc
 terraform init
 terraform apply -auto-approve
 ```
@@ -56,7 +56,7 @@ This will create a VPC and output the `vpc_id`.
 ### 3️⃣ Initialize and Apply `subnet-workspace`
 
 ```bash
-cd ../subnet-workspace
+cd ../subnet
 terraform init
 terraform apply -auto-approve
 ```
