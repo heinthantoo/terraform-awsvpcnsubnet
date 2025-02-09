@@ -51,6 +51,8 @@ This will create a VPC and output the `vpc_id`.
 - **Go to Terraform Cloud** → Select `vpc-workspace`
 - **Settings** → **State** → **Add "subnet-workspace" as an Authorized State Consumer**
 
+![workspace-share output](vpc/workspace-share.png)
+
 ### 3️⃣ Initialize and Apply `subnet-workspace`
 
 ```bash
