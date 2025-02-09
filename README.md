@@ -44,6 +44,8 @@ terraform apply -auto-approve
 
 This will create a VPC and output the `vpc_id`.
 
+![vpc-workspace output](vpc/vpc-workspace1.png)
+
 ### 2️⃣ Authorize `subnet-workspace` to Read `vpc-workspace` State
 
 - **Go to Terraform Cloud** → Select `vpc-workspace`
