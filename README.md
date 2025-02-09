@@ -125,6 +125,7 @@ resource "aws_subnet" "publicSubnet2" { #Create new publicSubnet
 
 
 ```
+![Result](vpc/aws-vpc.png)
 
 ## Notes
 
