@@ -64,6 +64,8 @@ terraform apply -auto-approve
 
 This will retrieve the `vpc_id` from `vpc-workspace` and create subnets inside the VPC.
 
+![Result1](vpc/subnet-out.png)
+
 ## Terraform Configuration Details
 
 ### `vpc/main.tf` (Creates VPC)
