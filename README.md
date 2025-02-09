@@ -56,6 +56,7 @@ cd ../subnet-workspace
 terraform init
 terraform apply -auto-approve
 ```
+![subnet-workspace RUN](subnet/subnet-workspace.png)
 
 This will retrieve the `vpc_id` from `vpc-workspace` and create subnets inside the VPC.
 
