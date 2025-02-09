@@ -49,7 +49,7 @@ This will create a VPC and output the `vpc_id`.
 ### 2️⃣ Authorize `subnet-workspace` to Read `vpc-workspace` State
 
 - **Go to Terraform Cloud** → Select `vpc-workspace`
-- **Settings** → **State** → **Add "subnet-workspace" as an Authorized State Consumer**
+- **Settings** → **General** → **Add "subnet-workspace" in Remote state sharing**
 
 ![workspace-share output](vpc/workspace-share.png)
 
