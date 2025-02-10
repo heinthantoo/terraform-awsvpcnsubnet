@@ -18,12 +18,12 @@ Before you begin, ensure you have:
 
 ```
 terraform-multi-workspace/
-│── vpc-workspace/
+│── vpc/
 │   ├── main.tf
 │   ├── backend.tf
 │   ├── versions.tf
 │
-│── subnet-workspace/
+│── subnet/
 │   ├── main.tf
 │   ├── backend.tf
 │   ├── versions.tf
